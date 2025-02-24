@@ -8,7 +8,7 @@ html, body {
 }
 
 .card-sleek-day {
-    background: linear-gradient(90deg, #3256f8, #ada8cd, #3256f8, #ada8cd);
+    background: linear-gradient(90deg, #5877ff, #ada8cd, #5877ff, #ada8cd);
     color: #fff;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
