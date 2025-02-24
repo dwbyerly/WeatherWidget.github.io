@@ -84,7 +84,6 @@
                     throw new Error(`Response status: ${response.status}`);
                 }
                 const data = await response.json();
-                console.log(data);
 
                 // get the weather code and set the SVG to the proper icon
                 await getWeatherCode(data.current.weather_code, data.current.is_day);
@@ -169,7 +168,6 @@
             // 22-24: snow
             // 80-94: showers
             // 95-99: thunderstorms
-            console.log(code, is_day);
             // YandereDev's weather code method
             // depending on the weather code and whether it's day or night, set the SVG icon and return the weather description
             // proably not even close to accurate, but it's a fun exercise :D
