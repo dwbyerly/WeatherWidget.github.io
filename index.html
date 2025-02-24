@@ -144,6 +144,7 @@
                     throw new Error(`Response status: ${response.status}`);
             }
             const data = await response.json();
+            console.log(data);
             return data.results[0].address_components[2].long_name;
         }
 
