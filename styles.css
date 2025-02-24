@@ -1,5 +1,5 @@
 .card-sleek-day {
-    background: linear-gradient(135deg, #4d69e3, #0b36f4);
+    background: linear-gradient(45deg, #002FFF, #DAD5FA);
     color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -7,7 +7,7 @@
 }
 
 .card-sleek-night {
-    background: linear-gradient(135deg, #2641b5, #764ba2);
+    background: linear-gradient(45deg, #000000, #4149C1);
     color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@
 }
 
 .card-sleek-cloud-day {
-    background: linear-gradient(135deg, #6d79ae, #764ba2);
+    background: linear-gradient(45deg, #5467BB, #8E8E8E);
     color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -23,7 +23,7 @@
 }
 
 .card-sleek-cloud-night {
-    background: linear-gradient(135deg, #000000, #383955);
+    background: linear-gradient(45deg, #454545, #1700AC);
     color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
