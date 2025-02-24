@@ -1,3 +1,3 @@
 # MobileWeatherWidget
 
-https://dwbyerly.github.io
+https://dwbyerly.github.io/weather-widget
