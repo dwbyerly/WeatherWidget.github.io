@@ -1,27 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
 .card-sleek-day {
-    background: linear-gradient(45deg, #002FFF, #DAD5FA);
+    background: linear-gradient(90deg, #002FFF, #ada8cd, #002FFF, #ada8cd);
     color: #fff;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+    animation: gradient 60s linear infinite;
+    background-size: 300% 100%;
 }
 
 .card-sleek-night {
-    background: linear-gradient(45deg, #000000, #4149C1);
+    background: linear-gradient(90deg, #000000, #4149C1,#000000, #4149C1);
     color: #fff;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+    animation: gradient 60s linear infinite;
+    background-size: 300% 100%;
 }
 
 .card-sleek-cloud-day {
-    background: linear-gradient(45deg, #5467BB, #8E8E8E);
+    background: linear-gradient(90deg, #5467BB, #8E8E8E, #5467BB, #8E8E8E);
     color: #fff;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+    animation: gradient 60s linear infinite;
+    background-size: 300% 100%;
 }
 
 .card-sleek-cloud-night {
-    background: linear-gradient(45deg, #454545, #35366c);
+    background: linear-gradient(90deg, #232323, #2b2b55, #232323,#2b2b55);
     color: #fff;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+    animation: gradient 30s linear infinite;
+    background-size: 300% 100%;
+}
+
+@keyframes gradient {
+	0% {
+        background-position: 0% 0%;
+      }
+    100% {
+        background-position: 100%, 0%;
+    }
 }
