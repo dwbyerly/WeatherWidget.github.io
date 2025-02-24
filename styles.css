@@ -1,0 +1,31 @@
+.card-sleek-day {
+    background: linear-gradient(135deg, #4d69e3, #0b36f4);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-sleek-night {
+    background: linear-gradient(135deg, #2641b5, #764ba2);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-sleek-cloud-day {
+    background: linear-gradient(135deg, #6d79ae, #764ba2);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-sleek-cloud-night {
+    background: linear-gradient(135deg, #000000, #383955);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
