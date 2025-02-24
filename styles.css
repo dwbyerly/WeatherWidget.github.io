@@ -2,7 +2,6 @@
     background: linear-gradient(45deg, #002FFF, #DAD5FA);
     color: #fff;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -10,7 +9,6 @@
     background: linear-gradient(45deg, #000000, #4149C1);
     color: #fff;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -18,7 +16,6 @@
     background: linear-gradient(45deg, #5467BB, #8E8E8E);
     color: #fff;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -26,6 +23,5 @@
     background: linear-gradient(45deg, #454545, #35366c);
     color: #fff;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
