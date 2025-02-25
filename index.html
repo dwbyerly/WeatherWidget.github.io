@@ -97,7 +97,7 @@
                 else if (data.current.is_day == 1 && data.current.weather_code >= 3) {
                     document.body.classList.add("card-sleek-cloud-day");
                 } else if (data.current.is_day == 0 && data.current.weather_code >= 3) {
-                    document.body.classList.add("card-sleek-cloud-day");
+                    document.body.classList.add("card-sleek-cloud-night");
                 }
 
                 const temp = Math.round(data.current.temperature_2m)
